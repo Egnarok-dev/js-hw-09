@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  width: min(100% - 4rem, 20rem);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.container .boxLeft,
+.boxRight {
+  display: block;
+}
+
+.container .btn a {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 35px;
+  font-family: 'Noto Nastaliq Urdu', serif;
+  color: rgb(3, 77, 80);;
+  background-image: url(../img/btn.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid rgb(3, 77, 80);
+  border-radius: 100%;
+  padding: 25px 30px;
+  margin: 5px;
+  transition: all 1.5s;
+}
+
+.container .btn:hover a{
+    background-image: url(../img/bia-w-a-SmkZz4aR-Ng-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    border: 5px solid white;
+}
+
+.active {
+    background-image: url(../img/bia-w-a-SmkZz4aR-Ng-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    border: 5px solid white;
+    border-radius: 100px;
+}
